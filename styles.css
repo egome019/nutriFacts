@@ -1,3 +1,64 @@
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 40vw;
+	height: 100vh;
+	padding: 0 2em;
+}
+
+.border {
+	border: 1px solid black;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50%;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 16px;
+	margin: 3px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bold {
+	font-weight: 800;
+}
+
+.thick-border {
+	border: 5px solid black;
+	margin: 8px 0;
+}
+
+.top-space {
+	margin-top: 10px;
+}
+
+.small {
+	font-size: 12px;
+}
+
+.bottom-border {
+	border-bottom: 1px solid black;
+}
+
+.right {
+	justify-content: flex-end;
+}
+
+.indent {
+	margin-left: 1em;
 }
